@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(135, 240, 153);
+  border: double rgb(9, 161, 29) 20px;
+  padding: 20px 20px;
+}
+
+h1 {
+  border: dotted rgb(0, 128, 0) 5px;
+  padding: 10px 10px;
+  color: rgb(61, 150, 68);
+  text-align: center;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  padding: 10px 10px;
+  font-size: large;
+  color: rgb(17, 102, 17);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  text-align: center;
+  color: rgb(75, 165, 75);
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
