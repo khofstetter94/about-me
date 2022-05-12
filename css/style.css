@@ -2,6 +2,7 @@ body {
   background-color: rgb(135, 240, 153);
   border: double rgb(9, 161, 29) 20px;
   padding: 20px 20px;
+  margin: 80px 200px 80px 200px;
 }
 
 h1 {
@@ -19,6 +20,7 @@ p {
   color: rgb(17, 102, 17);
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
 }
 
 header {
@@ -26,4 +28,28 @@ header {
   color: rgb(75, 165, 75);
   font-size: larger;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ol {
+  display: inline-block;
+  border: 5px solid rgb(40, 214, 25);
+  padding: 10px 10px 10px 30px;
+  list-style-type: decimal;
+  color:rgb(17, 102, 17);
+  line-height: 20px;
+}
+
+h3 {
+  color: green;
+  font-size: larger;
+  line-height: 30px;
+}
+
+ul {
+  display: inline-block;
+  border: 5px solid rgb(40, 214, 25);
+  padding: 10px 10px 10px 30px;
+  list-style-type: circle;
+  color:rgb(17, 102, 17);
+  line-height: 20px;
 }
