@@ -100,4 +100,4 @@ for(let attempts = 0; attempts < 6; attempts++){
 }
 alert('These are my top 10 favorite foods: ' + food);
 
-document.write(` Your score is ${score} out of 7!`);
+alert(` Your score is ${score} out of 7!`);
