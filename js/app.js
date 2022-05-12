@@ -12,6 +12,8 @@ if(userName === 'Jeremy'){
 }
 alert('Wow! That\'s such a nice name! Welcome ' + userName + ', would you like to learn a little bit about me? Let\'s play a guessing game!');
 
+function questionOne () {
+
 let answerOne = prompt('Do I live in San Diego?').toLowerCase();
 
 if(answerOne === 'yes' || answerOne === 'y'){
@@ -19,8 +21,12 @@ if(answerOne === 'yes' || answerOne === 'y'){
 } else if(answerOne === 'no' || answerOne === 'n'){
   alert('Correct! I live in Seattle!');
   score = score+1;
-  console.log('Correct! ' + answerOne + ', I live in Seattle');
+ console.log('Correct! ' + answerOne + ', I live in Seattle');
 }
+}
+questionOne ();
+
+function questionTwo () {
 
 let answerTwo = prompt('Am I half Filipino?').toLowerCase();
 
@@ -32,6 +38,10 @@ if(answerTwo === 'yes' || answerTwo === 'y'){
   alert('Actually, I am! The other half is German.');
 }
 
+questionTwo ();
+
+function questionThree () {
+
 let answerThree = prompt('Have I always lived in Washington?').toLowerCase();
 
 if(answerThree === 'yes' || answerThree === 'y'){
@@ -41,6 +51,12 @@ if(answerThree === 'yes' || answerThree === 'y'){
   score = score+1;
   console.log('Correct! ' + answerThree + ', I am 27 years old');
 }
+}
+
+questionThree ();
+
+
+function questionFour () {
 
 let answerFour = prompt('Do I work in the dental field?').toLowerCase();
 
@@ -52,6 +68,10 @@ if(answerFour === 'yes' || answerFour === 'y'){
   alert('Incorrect, I am a dental hygienist! But not for long!');
 }
 
+questionFour ();
+
+function questionFive () {}
+
 let answerFive = prompt('Do I have any brothers?').toLowerCase();
 
 if(answerFive === 'yes' || answerFive === 'y'){
@@ -61,6 +81,9 @@ if(answerFive === 'yes' || answerFive === 'y'){
   score = score+1;
   console.log('Correct! ' + answerFive + ', I have one sister');
 }
+}
+
+function questionSix () {}
 
 let answerSix = prompt('Guess what number I am thinking of 1-50! You get 5 guesses!');
 let myNumber = 28;
@@ -83,7 +106,7 @@ for(let i=0; i <= attempts; i++){
     alert('The correct answer was ' + myNumber);
   }
 }
-
+questionSix ();
 
 let food = ['steak', 'crab', 'pasta', 'tacos', 'ramen', 'cookies', 'salmon', 'hummus', 'popcorn', 'potatoes'];
 
