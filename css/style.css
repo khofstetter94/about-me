@@ -1,13 +1,15 @@
 body {
   background-color: rgb(135, 240, 153);
   border: double rgb(9, 161, 29) 20px;
+  border-radius: 10px;
   padding: 20px 20px;
-  margin: 80px 200px 80px 200px;
+  margin: 80px 200px 200px 200px;
 }
 
 h1 {
   border: dotted rgb(0, 128, 0) 5px;
   padding: 10px 10px;
+  border-radius: 10px;
   color: rgb(61, 150, 68);
   text-align: center;
   font-size: x-large;
@@ -33,23 +35,33 @@ header {
 ol {
   display: inline-block;
   border: 5px solid rgb(40, 214, 25);
+  border-radius: 10px;
   padding: 10px 10px 10px 30px;
   list-style-type: decimal;
   color:rgb(17, 102, 17);
-  line-height: 20px;
+  line-height: 38px;
 }
 
 h3 {
+  text-align: center;
   color: green;
   font-size: larger;
   line-height: 30px;
 }
 
 ul {
-  display: inline-block;
   border: 5px solid rgb(40, 214, 25);
+  border-radius: 10px;
   padding: 10px 10px 10px 30px;
   list-style-type: circle;
   color:rgb(17, 102, 17);
   line-height: 20px;
+}
+figure {
+  position: relative;
+  left: 300px;
+  max-width: fit-content;
+  text-align: center;
+  bottom: 425px;
+  border: solid rgb(40, 214, 25) 5px;
 }
