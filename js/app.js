@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('Hello World!');
-
 let userName = prompt('What is your name?');
 let score = 0;
 
